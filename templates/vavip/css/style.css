@@ -17,6 +17,13 @@ body {
     color: var(--black);
     background-color: var(--white);
     line-height: 1.5;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .hero {
