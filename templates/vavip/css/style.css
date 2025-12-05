@@ -1,0 +1,320 @@
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --gray-100: #F8F9FA;
+    --gray-200: #E9ECEF;
+    --gray-300: #DEE2E6;
+    --gray-400: #CED4DA;
+    --gray-500: #ADB5BD;
+    --gray-600: #6C757D;
+    --gray-700: #495057;
+    --gray-800: #343A40;
+    --gray-900: #212529;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--black);
+    background-color: var(--white);
+    line-height: 1.5;
+}
+
+.hero {
+    background-color: var(--gray-100);
+    padding: 100px 0 80px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid var(--gray-300);
+}
+
+.logo {
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.logo-img {
+    height: 100%;
+    width: auto;
+    filter: brightness(0) saturate(100%);
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: var(--black);
+}
+
+.text-muted {
+    color: var(--gray-600) !important;
+}
+
+.btn-black {
+    background-color: var(--black);
+    border-color: var(--black);
+    color: var(--white);
+    font-weight: 600;
+    padding: 14px 32px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-black:hover {
+    background-color: var(--gray-800);
+    border-color: var(--gray-800);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.btn-gray {
+    background-color: var(--gray-800);
+    border-color: var(--gray-800);
+    color: var(--white);
+    font-weight: 600;
+    padding: 14px 32px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-gray:hover {
+    background-color: var(--gray-700);
+    border-color: var(--gray-700);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-black {
+    background-color: transparent;
+    border: 2px solid var(--black);
+    color: var(--black);
+    font-weight: 600;
+    padding: 14px 32px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-black:hover {
+    background-color: var(--black);
+    color: var(--white);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.section-title {
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+
+.section-title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: var(--black);
+    border-radius: 1.5px;
+}
+
+.text-center .section-title:after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card-custom {
+    background: var(--white);
+    border-radius: 12px;
+    border: 1px solid var(--gray-300);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    height: 100%;
+    overflow: hidden;
+}
+
+.card-custom:hover {
+    transform: translateY(-10px);
+    border-color: var(--black);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--gray-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    border: 1px solid var(--gray-300);
+}
+
+.icon-circle .material-icons {
+    font-size: 32px;
+    color: var(--black);
+}
+
+.highlight-box {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 25px;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--black);
+}
+
+.highlight-box-alt {
+    background-color: var(--white);
+    color: var(--black);
+    padding: 25px;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--black);
+}
+
+.contact-card {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 30px;
+    border: 1px solid var(--gray-300);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--gray-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    flex-shrink: 0;
+    border: 1px solid var(--gray-300);
+}
+
+.contact-icon .material-icons {
+    color: var(--black);
+    font-size: 24px;
+}
+
+.whatsapp-btn {
+    background-color: var(--black);
+    border-color: var(--black);
+    color: var(--white);
+}
+
+.whatsapp-btn:hover {
+    background-color: var(--gray-800);
+    border-color: var(--gray-800);
+}
+
+.telegram-btn {
+    background-color: var(--gray-800);
+    border-color: var(--gray-800);
+    color: var(--white);
+}
+
+.telegram-btn:hover {
+    background-color: var(--gray-700);
+    border-color: var(--gray-700);
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.feature-list li:last-child {
+    border-bottom: none;
+}
+
+.feature-list .material-icons {
+    color: var(--black);
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 40px 0 20px;
+}
+
+.badge-offer {
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    background-color: var(--white);
+    color: var(--black);
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    border: 2px solid var(--black);
+}
+
+.border-black {
+    border-color: var(--black) !important;
+}
+
+.bg-light-section {
+    background-color: var(--gray-100);
+}
+
+.text-black {
+    color: var(--black) !important;
+}
+
+.text-white {
+    color: var(--white) !important;
+}
+
+.btn-outline-white {
+    background-color: transparent;
+    border: 2px solid var(--white);
+    color: var(--white);
+    font-weight: 600;
+    padding: 14px 32px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-white:hover {
+    background-color: var(--white);
+    color: var(--black);
+    transform: translateY(-2px);
+}
+
+.form-control, .form-select {
+    border: 1px solid var(--gray-400);
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--black);
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 0 60px;
+    }
+
+    .logo {
+        height: 50px;
+    }
+}
