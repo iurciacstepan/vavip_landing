@@ -13,7 +13,12 @@ defined('_JEXEC') or die;
     <jdoc:include type="head" />
 
     <!-- Bootstrap 5.3 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MPhfmzO+8EUGCOolms9UpFDb2UFZIhKXpyFUUb2tfh+HuKMMkp3Qt/b0QZDZ2M1P" crossorigin="anonymous">
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9n3mYpGk0WZ0p6YfPlrZlZ0lz0aq+sB7S9b35+5I1Bx18"
+        crossorigin="anonymous"
+    >
 
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -400,7 +405,11 @@ defined('_JEXEC') or die;
     </footer>
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqEQmQ7AoY1+KDhRbQW2gY1RkIA9QbsM1ZK8Y1qS1Kp8LJw56dR5V5L5L2xJQ" crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+    ></script>
 
     <!-- AOS Animation -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
