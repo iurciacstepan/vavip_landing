@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0" type="template" client="site" method="upgrade">
+    <name>vavip</name>
+    <title>Vavip Landing</title>
+    <description>Лендинг Vavip с готовыми сантехническими узлами ввода</description>
+    <author>Vavip</author>
+    <creationDate>2024-01-01</creationDate>
+    <authorEmail>info@vavip.ru</authorEmail>
+    <authorUrl>https://vavip.ru</authorUrl>
+    <version>1.0.0</version>
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <folder>css</folder>
+        <folder>js</folder>
+    </files>
+</extension>
